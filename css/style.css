@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'joystixmonospace';
+    src: url('../font/joystix_monospace-webfont.ttf') format('ttf'),
+         url('../font/joystix_monospace-webfont.woff2') format('woff2'),
+         url('../font/joystix_monospace-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.title {
+  font-family: 'joystixmonospace';
+  font-size: 2rem;
+  color: blue;
+  text-align: center;
+}
+.background {
+  background-color:black;
+}
+
+#game { margin-left: auto;
+        margin-right: auto;}
+
+#author {font-family: 'joystixmonospace';
+          color: blue;
+          text-align: center;}
